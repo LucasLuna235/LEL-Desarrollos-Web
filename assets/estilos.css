@@ -420,7 +420,8 @@ footer{
     }
 
     .banner--content{
-        margin-top: 150px;
+        margin-top: -760px;
+        color: #fff;
     }
 
     .portafolio{
