@@ -5,6 +5,11 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+    transition: all 0.5s ease;
+}
+
 body{
     font-family: georgia, Times, serif;
     margin: 0;
@@ -357,13 +362,13 @@ footer{
 
 @media screen and (min-width:414px){
   .banner-content-main{
-    top: 75%;
+    top: 66%;
   }
   .banner--content{
     margin-top: -630px;
   }
   iframe{
-    width: 350px;
+    width: 600px;
     margin-bottom: -150px;
   }
 }
