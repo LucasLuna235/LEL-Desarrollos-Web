@@ -378,22 +378,13 @@ footer{
 
 @media screen and (min-width:430px){
     .banner-content-main{
-        top: 82%;
+        margin-top: -120px;
     }
 
     .banner--content{
-        margin-top: -760px;
+        margin-top: -800px;
+        color: #fff;
     }
-
-    iframe{
-        width: 379px;
-        margin-bottom: -150px;
-    }
-
-    .portafolio{
-        margin-left: 60px;
-    }
-    
 }
 
 @media screen and (min-width:540px){
@@ -401,7 +392,7 @@ footer{
         margin-top: -260px;
     }
     .banner--content{
-        margin-top: 150px;
+        margin-top: -2050px;
     }
 }
 
@@ -420,7 +411,7 @@ footer{
     }
 
     .banner--content{
-        margin-top: -760px;
+        margin-top: 500px;
         color: #fff;
     }
 
@@ -560,7 +551,7 @@ footer{
     }
 
     .portafolio{
-        margin-left: 400px;
+        margin-left: 330px;
     
     }
 
