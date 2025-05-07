@@ -287,6 +287,19 @@ footer{
     .banner-content-main{
         top: 90%;
     }
+
+    .portafolio{
+        margin-left: 50px;   
+        width: 250px;
+     }
+     .content-web a{
+         margin-left: -200px;
+         margin-top: 250px;
+     }
+   
+     iframe{
+         width: 300px;
+     }
 }
 
 @media screen and (min-width: 365px){
@@ -320,30 +333,20 @@ footer{
     }
 }
 
-@media screen and (min-width: 390px){
-    .banner-content-main{
-        top: 80%;
-    }
+@media screen and (min-width:390px) {
+   .banner-content-main{
+    margin-top: -90px;
+   }
 
-    .banner--content{
-        margin-top: -400px;
-    }
-
-    /* .portafolio{
-        margin-left: 150px;   
-        width: 250px;
-    } */
-
-    iframe{
-        width: 379px;
-        margin-bottom: -150px;
-    }
-
+   .banner--content{
+    color: #fff;
+    margin-top: -450px;
+   }
 }
 
 @media screen and (min-width:412px){
     .banner-content-main{
-        top: 73%;
+        top: 85%;
     }
     .banner--content{
         margin-top: -700px;
@@ -356,26 +359,26 @@ footer{
     }
 
     iframe{
-        width: 900px;
+        width: 350px;
     }
 }
 
 @media screen and (min-width:414px){
   .banner-content-main{
-    top: 66%;
+    margin-top: -73px;
   }
   .banner--content{
     margin-top: -630px;
   }
   iframe{
-    width: 600px;
+    width: 380px;
     margin-bottom: -150px;
   }
 }
 
 @media screen and (min-width:430px){
     .banner-content-main{
-        top: 70%;
+        top: 82%;
     }
 
     .banner--content{
@@ -394,33 +397,26 @@ footer{
 }
 
 @media screen and (min-width:540px){
+    .banner-content-main{
+        margin-top: -260px;
+    }
     .banner--content{
-        margin-top: -80px;
-    }
-    
-}
-
-
-@media screen and (min-width:360px){
-      .portafolio{
-       margin-left: 50px;   
-       width: 250px;
-    }
-    .content-web a{
-        margin-left: -200px;
-        margin-top: 250px;
-    }
-
-    iframe{
-        width: 300px;
+        margin-top: 150px;
     }
 }
+
+
 
 @media screen and (min-width:480px){
     .banner-content-main{
         top: 670px;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .banner-content-main img{
+        height: 200px;
+        object-fit: cover;
     }
 
     .banner--content{
@@ -541,7 +537,7 @@ footer{
    }
 
    .portafolio{
-    margin-left: 290px;
+    margin-left: 200px;
 
    }
    .content-web{
