@@ -186,16 +186,31 @@ header{
     align-items: center;  
 }
 
-.content-web a{
-    margin-left: 30px;
+.content-web img:hover{
+     box-shadow: 10px 10px 10px #a09f9f;
+     transition: all .5s ease;
 }
+
+.content-web a:hover{
+    color: #a09f9f;
+    transition: all .5s ease;
+}
+
+
+.content-web a{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
 
 .content-web img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 10px 10px 10px #a09f9f;
+    object-fit: cover;
+   
 }
 
 
@@ -219,6 +234,10 @@ header{
     text-align: center;
     padding-top: 200px;
 }
+
+  #Nosotros{
+        padding: 3em;
+  }
 
 .btn-contact{
     width: 230px;
@@ -288,6 +307,11 @@ footer{
         top: 90%;
     }
 
+    .banner--content{
+        margin-top: 100%;
+        color: #fff;
+    }
+
     .portafolio{
         margin-left: 50px;   
         width: 250px;
@@ -328,19 +352,19 @@ footer{
     }
 
     .banner--content{
-        margin-top: 300px;
+        margin-top: 150%;
         
     }
 }
 
 @media screen and (min-width:390px) {
    .banner-content-main{
-    margin-top: -90px;
+    margin-top: -95px;
    }
 
    .banner--content{
     color: #fff;
-    margin-top: -450px;
+    margin-top: -50%;
    }
 }
 
@@ -349,8 +373,7 @@ footer{
         top: 85%;
     }
     .banner--content{
-        margin-top: -700px;
-        font-style: 70px;
+        margin-top: -110%;
         color: #fff;
     }
 
@@ -368,8 +391,8 @@ footer{
     margin-top: -73px;
   }
   .banner--content{
-    margin-top: -630px;
-  }
+    margin-top: -100%;     
+  }   
   iframe{
     width: 380px;
     margin-bottom: -150px;
@@ -382,8 +405,14 @@ footer{
     }
 
     .banner--content{
-        margin-top: -800px;
+        margin-top: -130%;
         color: #fff;
+    }
+
+    .content-web{
+        width: 240px;
+        margin-left: 20px;
+        object-fit: cover;
     }
 }
 
@@ -411,7 +440,7 @@ footer{
     }
 
     .banner--content{
-        margin-top: 500px;
+        margin-top: 150%;
         color: #fff;
     }
 
@@ -431,31 +460,34 @@ footer{
     }
 
     .banner-content-main img{
-        width: 350px;
+        width: 550px;
         height: 200px;
         object-fit: cover;
         margin-top: 35px;
-        padding-right: 20px;
+        padding-right: 30px;
     }
    
-    .banner--content{
-        top: 2400px;
-    }
+   
 
     .texto{
         padding-left: 60px;
         padding-right: 60px;
-        margin-left: 30px;
+        
     }
 
     .portafolio{
         width: 500px;
         display: inline-flex;
         text-align: center;
+        
+    }
+
+    .content-web{
+        width: 600px;
     }
 
     .banner--content{
-        margin-top: 90px;
+        margin-top: -190%;
         font-size: 35px;
     }
 
@@ -471,9 +503,19 @@ footer{
   }
 
   .banner-content-main img{
-    width: 300px;
+    width: 500px;
     height: 250px;
+    padding-left: 20px;
   }  
+
+  .banner-content-text{
+    padding-left: 30px;
+  }
+
+  .banner--content{
+    margin-top: 30%;
+    color:#fff; 
+  }
 
   .portafolio{
     display: inline-flex;
@@ -492,12 +534,17 @@ footer{
      align-items: center;
    }
 
+   .banner--content{
+    margin-top: 20%;
+    color: #fff;
+   }
+
    .logo-nav-container{
     width: 500px;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 150px;
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -534,6 +581,7 @@ footer{
    }
    .content-web{
     width: 300px;
+    
    }
 
    iframe{
