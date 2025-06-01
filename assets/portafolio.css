@@ -1,0 +1,44 @@
+#Portfolio{
+ background: #333;
+ color:#fff;
+ padding-top: 50px;
+ margin-top: -25px;
+ padding-bottom: 60px;
+ margin-bottom: -10px;
+}
+
+#Portfolio h2, h3, h4{
+    text-align: center;
+    font-size: 25px;    
+}
+
+#Portfolio .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Portfolio article{
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+article h4{
+    margin-bottom: 20px;
+}
+
+article h4> a{
+    color: white;
+    text-decoration: none;
+}
+
+#Portfolio img{
+    width: 280px;
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 100%;
+    border: solid 5px white;
+}

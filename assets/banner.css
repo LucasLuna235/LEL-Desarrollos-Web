@@ -1,0 +1,191 @@
+.banner{
+    margin-top: 195px;
+    background: #cecdcd;
+    position: relative;
+    text-align: center;    
+    font-size: 20px;
+}
+
+.banner img{
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner .contenedor{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+}
+
+.banner h2{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-bottom: solid 1px #000;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.contenedor .btn-consultanos{
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.btn-consultanos{
+    width: 200px;
+    height: 50px;
+    background: #06db5b;
+    font-size: 30px;
+    border-radius: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn-consultanos a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: -10px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn-consultanos:hover{
+    background: #000;
+    transition: all .5s ease;
+}
+
+.banner p{
+    font-size: 20px;
+}
+
+/* Estilos responsive */
+
+@media screen and (min-width: 375px){
+  .banner h2{
+    width: 300px;
+  }
+
+  .banner img{
+    margin-top: 100px;
+  }
+
+  .btn-consultanos{
+    margin-left: 85px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 480px){
+    .banner h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-top: 75px;
+    }
+
+    .banner p{
+        margin-bottom: -33px;
+    }
+
+    .btn-consultanos{
+        margin-top: -62px;
+        margin-left: 150px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px){
+    .banner{
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .container{
+        margin-left: -30px;
+    }
+
+    .banner h2{
+        margin-left: 180px;
+    }
+
+    
+    .btn-consultanos{
+        margin-top: -30px;
+        margin-left: 320px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    .container{
+        width: 85%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .banner img{
+        width: 500px;
+        height: 390px;  
+        margin-left: 100px;
+        margin-top: -200px;
+    }
+
+
+    .banner h2{
+        width: 370px;   
+        margin-left: 90px;
+        margin-top: 200px;
+    }
+    
+    .banner .contenedor{
+       justify-content: space-between;
+       align-items: center;
+       margin-left: -150px;
+       margin-top: 300px;
+    }
+
+    .banner p{
+        width:350px;
+        text-align: center;
+        margin-left: 100px;
+        margin-bottom: 190px;
+        
+    }
+
+    .btn-consultanos{
+        width: 300px;
+        margin-left: -500px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+
+    .container{
+        margin-left: 150px;
+    }
+
+   .btn-consultanos{
+        margin-left: -1000px;
+        margin-right: 195px;
+    }
+
+    
+
+}

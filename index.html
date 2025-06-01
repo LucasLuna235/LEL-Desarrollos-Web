@@ -1,127 +1,147 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/estilos.css">
-    <link rel="icon" href="./assets/images/logo.jpg" >
-       <!-- FONT AWESMOE -->
+    <!-- <link rel="stylesheet" href="./assets/menu.css"> -->
+      <!-- FONT AWESMOE -->
        <!-- update the all.css file -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-       <!-- AOS -->
-       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>LEL Desarrollos Web</title>
 </head>
 <body>
-    <header>
-        <div class="container logo-nav-container">
+     <header>
+        <div class="contenedor logo-nav-container">
             <div class="logo">
                 <img src="./assets/images/logo.jpg" alt="">
-                <div class="logo-title">LEL Desarrollos Web</div>
+                <h1>LEL Desarrollos Web</h1>
             </div>
-            <nav class="nav">
-                <div class="container container-flex">
-                    <span class="icon-menu"><i class="fas fa-bars"></i></span>
-                <ul class="menu">
-                    <li class="menu--link  menu--link--select"><a href="#">Inicio</a></li>
-                    <li class="menu--link"><a href="#Nosotros">Nosotros</a></li>
-                    <li class="menu--link"><a href="#Portafolio">Portafolio</a></li>
-                    <li class="menu--link"><a href="#Contacto">Contacto</a></li>
+            <div class="navigation">
+            <input type="checkbox"  id="menu-bar">
+            <label class="icon-menu" for="menu-bar"><i class="fa-solid fa-bars">LEl</i></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
                 </ul>
-                </div>
             </nav>
-        </div>  
-    </header>
-    <main class="main">
-        <div class="container .banner-container">
-
-            <div class="banner-main" >
-                <img src="./assets/images/wall1.webp"  alt="" class="banner-img">
-            </div>
-            <div class="banner-content-main"><br><br>
-                <picture class="hero-picture">
-                    <img src="./assets/images/web1.webp" alt="">
-                </picture><br>
-                <div class="banner-content-text">
-                    <article class="hero-texts">
-                        <div class="main-title">Creamos tu pagina web a medida</div><br>
-                      Eleva tu negocio al maximo, <br> hace realidad lo que siempre imaginaste.
-                      <div class="btn-contact" style="margin-top: 10px;">
-                        <a href="https://wa.me/+542616379265?text=Hola%20te%20contacte%20desde%20la%20pagina%20LEL Desarrollos Web"><i class="fab fa-whatsapp"></i> Contactanos</a>
-                    </article>
-                     <br>
-                    </div>  
-               </div>
-               
-            </div> 
-            <div class="texto" id="Nosotros">
-                <div class="main-title">Nosotros</div>
-                Somos una empresa de desarrollo de software que se especializa en desarrollo web. <br> Estamos en pleno crecimiento y <br>
-                Creemos en que algo si podes imaginarlo, <br> podes crearlo, por eso estamos a la disposicion de todas las necesidades de nuestros clientes   
-            </div>
-             <!-- PARALLAX -->
-             <div class="row py-5 banner-parallax">
-                <div class="col-sm-4 col-md-4 col-lg-4"></div>
-                <div class="col-sm-8 col-md-8 col-lg-8">
-                  <p class="texto-parallax">
-                    “Si tu negocio no está en Internet, tu negocio no existe. <br><br>
-            – Bill Gates    
-                  </p>
-                </div>
-              </div>
-              <style>
-               
-                .banner-parallax{
-                  height: 600px;
-                  background-image: linear-gradient(rgba(236, 236, 240, 0.444),rgba(236, 236, 240, 0.444)),
-                  url(./assets/images/bill3.jpg);
-                  background-attachment: fixed;
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  background-size:cover;
-                  margin: auto;
-                  margin-top: -50px;  
-                }
-              </style>
-               <!-- PARALLAX -->
-            <div class="texto" id="Portafolio">
-                <div class="main-title">Portafolio</div>
-                <div class="container portafolio">
-                    <div class="content-web">
-                        <img src="./assets/images/sn.jpeg" alt="">
-                        <a href="https://leldesarrollosweb.github.io/stetic-nails.com">stetic&nails.com</a>
-                    </div>
-                    <div class="content-web">
-                        <img src="./assets/images/pipos.jpeg" alt="" title="Esta pagina se encuentra en desarrollo">
-                        <a href="#" title="Esta pagina se encuentra en desarrollo">piposavendaño.com</a>
-                    </div>
-                </div>
-            </div>
-            <div class="banner-main" >
-                <img src="./assets/images/imagina.webp" alt="" class="banner-img">
-            </div>
-            <div class="banner--content">
-                    Si podes imaginarlo, <br> Podes crearlo.          
-            </div>   
-
-            <div class="texto">
-                <div class="main-title" id="Contacto">Contacto</div>
-                En LEL desesarrollos Web queremos que tu confianza en nosotros sea plena y sepas que buscamos el desarrollo completo y absoluto de tu empresa, por eso valoramos cada interacción con nuestr  
-                os clientes y visitantes. Ya sea que tengas preguntas sobre nuestros servicios digitales, necesites asistencia con un proyecto de desarrollo web, o simplemente quieras compartir tus ideas y comentarios, estamos listos para escucharte.
-                Si estás interesado en desarrollo web o en alguno de nuestros servicios digitales, no dudes en solicitarnos más información. Nuestro equipo de expertos está listo para proporcionarte las mejores soluciones adaptadas a tus necesidades. 
-                <br><br>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffdYne_ljn6NNn6S5g8X7uem1bGCILmjRzGQDUq6_FCPxYfg/viewform?embedded=true" width="520" height="700" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>    
             </div>
         </div>
-    </main>
-    <footer>
-        ©2025 LEL Desarrollos Web - Todos los derechos reservados <br>
-        leldesarrollosweb.com
-    </footer>
-
-
-
-    <script src="./assets/menu.js"></script>
+     </header>
+     <section class="banner">
+        <div class="container">
+            <img src="./assets/images/web3.webp" alt="" class="banner-web-img">
+            <div class="contenedor">  
+             <h2>Creamos tu pagina web a tu medida</h2>
+             <p>Eleva tu negocio al maximo, hace realidad lo que siempre soñaste</p><br>
+            </div>
+             <div class="btn-consultanos">
+                <a href="https://wa.me/+542616379265?text=Hola%20te%20contacte%20desde%20la%20pagina%20LELDesarrollosWeb">Consultanos</a>
+            </div><br>
+        </div>    
+    </section>
+    <section class="nosotros" id="Nosotros">
+      
+      <div class="contenedor">
+        <h2>Nosotros</h2>
+        <p>
+            Somos una empresa de desarrollo web, estamos en pleno crecimiento y creemos en que algo si podes imaginarlo, podes crearlo, por eso estamos a la disposicion y necesiades de todos nuestros clientes.
+            en LEL Desarrollos web queremos que tu confianza en nosotros sea plena y sepas que buscamos el desarrollo completo y absoluto de tu empresa, por eso valoramos cada interaccion con nuestros clientes y visitantes. 
+        </p>
+      </div>
+    </section>
+    <section id="Parallax-1">
+    <div class="row py-5 banner-parallax">
+    <div class="col-sm-4 col-md-4 col-lg-4"></div>
+    <div class="col-sm-8 col-md-8 col-lg-8">
+      <div class="texto-parallax">
+        "Si tu negocio no está en internet, <br> 
+       tu negocio no existe."<br><br>
+       - Bill Gates
+      </div>
+    </div>
+  </div>
+  <style>
+   
+    .banner-parallax{
+      height: 400px;
+      background-image: linear-gradient(rgba(236, 236, 240, 0.444),rgba(236, 236, 240, 0.444)),
+      url(./assets/images/bill3.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      margin: auto;
+    
+    }
+  </style>
+    </section>
+    <section id="Portfolio">
+        <h2 style="font-size: 35px;  ">Portfolio</h2>
+        <h3>Nuestros ultimos proyectos</h3>
+        <div class="contenedor">
+            <article>
+                <img src="./assets/images/sn.jpeg" alt="">
+                <h4><a href="">stetic&nails.com</a></h4>
+            </article>
+            <article>
+                <img src="./assets/images/pipos.jpeg" alt="">
+                <h4><a href="">piposavendaño.com</a></h4>
+            </article>
+        </div>
+    </section>
+    <section id="Parallax-2">
+         <div class="row py-5 bp">
+    <div class="col-sm-4 col-md-4 col-lg-4"></div>
+    <div class="col-sm-8 col-md-8 col-lg-8 info-talleres" style="width: 200px;">
+      <p class="texto" id="Imagina-parallax">
+        Si podés imaginarlo, <br>
+         podes crearlo.
+      </p>
+      
+    </div>
+  </div>
+  <style>
+   
+    .bp{
+      height: 400px;
+      background-image: linear-gradient(rgba(236, 236, 240, 0.796),rgba(236, 236, 240, 0.796)),
+      url(./assets/images/imagina.webp);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      margin: auto;
+    
+    }
+  
+    @media screen and (max-width:991px){
+      .info-talleres{
+        width: 260px;
+        margin-left:60px;
+        /* background: red; */
+      }
+    }
+  </style>
+    </section>
+    <section id="Contacto">
+        <div class="contenedor">
+            <h2>Contacto</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3cTzOm3WGi7UDSN_vifubwKv037dLDBxotcA_2-SO4jBdUA/viewform?embedded=true" width="720" height="900" frameborder="0" marginheight="0" marginwidth="0" class="form-google">Cargando…</iframe>
+        </div> 
+    </section>
+ <footer id="Footer">
+    2025 LEL Desarrollos Web-
+    Todos los derechos reservados 
+    leldesarrollosweb.com
+    <div class="social-icon">
+      <a href="#" class="social-icon--link" title="leldesar rollosweb"><i class="fa-brands fa-facebook" title="leldesarrollosweb"></i></a>
+      <a href="#" class="social-icon--link" title="leldesarrollosweb"><i class="fa-brands fa-instagram" title="leldesarrollosweb"></i></a>
+    </div>
+ </footer>  
+<script src="./assets/menu.js"></script>     
 </body>
 </html>
-

@@ -1,0 +1,13 @@
+#Contacto h2{
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#Contacto .contenedor{
+    width: 300px;
+}
+
+iframe{
+width: 290px;
+}
