@@ -115,12 +115,11 @@ section{
 
 /* Estilos Responsive */
 
-
-
 @media screen and (min-width: 375px){
     header{
         height: 250px;
     }
+    
     header .contenedor{
         margin-left: -46px;
     }
@@ -136,6 +135,7 @@ section{
 
     #Nosotros{
         margin-top: -120px;
+        margin-bottom: 200px;
     }
 }
 
