@@ -115,8 +115,8 @@ section{
 
 /* Estilos Responsive */
 
-/* Estilos Responsive */
-/* 
+
+
 @media screen and (min-width: 375px){
     header{
         height: 250px;
@@ -133,7 +133,11 @@ section{
     #Imagina-parallax{
         margin-left: 5px;
     }
-} */
+
+    #Nosotros{
+        margin-top: -120px;
+    }
+}
 
 @media screen and (min-width: 768px){
     
