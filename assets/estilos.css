@@ -135,7 +135,8 @@ section{
 
     #Nosotros{
         margin-top: -120px;
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
+        font-size: 27px;
     }
 }
 
