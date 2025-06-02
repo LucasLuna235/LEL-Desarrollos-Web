@@ -115,6 +115,33 @@ section{
 
 /* Estilos Responsive */
 
+@media screen and (min-width:360px){
+ #Nosotros{
+    margin-top: -120px;
+    font-size: 28px;
+ }
+
+ .texto-parallax{
+    margin-left: -60px;
+ }
+  
+
+}
+
+@media screen and (min-width:430px){
+     #Imagina-parallax{
+     margin-left: 160px;
+    }
+}
+
+@media screen and (min-width:412px){
+   .texto-parallax{
+    margin-left: 50px;
+   } 
+    
+}
+
+
 @media screen and (min-width: 375px){
     header{
         height: 250px;
