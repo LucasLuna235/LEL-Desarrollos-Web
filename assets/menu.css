@@ -144,14 +144,24 @@ header .contenedor{
     }
 
     .menu a{
+        color: #000;
         border: none;
         transition: all .5s ease;
     }
+
+    .menu a:hover{
+        color: #fff;
+        background:rgb(80, 80, 93);
+    }
+
 
     header label{
         display: none;
     }
 
+
+
+  
 }
 
 @media screen and (min-width: 1280px){
