@@ -182,12 +182,27 @@
 
 }
 
+@media screen and (min-width: 540px){
+    .banner h2{
+        margin-left: 120px; 
+    }
+
+    .banner p{
+        margin-left: 150px;
+    }
+
+    .btn-consultanos{
+        margin-left: 180px;
+    }
+}
+
 @media screen and (min-width: 768px){
     .banner{
         height: 700px;
         overflow: hidden;
-        
+        text-align: center;
     }
+
 
     .container{
         margin-left: -30px;
@@ -204,8 +219,8 @@
     }
 
     .banner p{
-        width: 300px;
-        margin-left: 20px;
+        width: 500px;
+        margin-left: 180px;
         font-size: 25px;
         margin-bottom: -25px;
     }

@@ -143,6 +143,7 @@ section{
         /*  */
         margin-right: 500px;
     }
+
 }
 
 @media screen and (min-width: 375px){
@@ -156,6 +157,19 @@ section{
         /* margin-bottom: 200px; */
         font-size: 27px;
     }
+
+    .texto-parallax{
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width:390px) {
+    .texto-parallax{
+        margin-left: 30px;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -165,10 +179,10 @@ section{
         
     }
 
-    #Imagina-parallax{
-        margin-left: 200px;
+    /* #Imagina-parallax{
+        margin-left: -1900px;
         font-size: 30px;
-    }
+    } */
 
     iframe{
         width: 500px;
@@ -177,6 +191,12 @@ section{
     }
 
        
+}
+
+@media screen and (min-width:912px){
+    #Imagina-parallax{
+        margin-left: 122px;
+    }
 }
 
 @media screen and (min-width: 1024px){
