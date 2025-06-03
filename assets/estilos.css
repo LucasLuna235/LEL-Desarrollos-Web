@@ -128,11 +128,6 @@ section{
 
 }
 
-@media screen and (min-width:430px){
-     #Imagina-parallax{
-     margin-left: 160px;
-    }
-}
 
 @media screen and (min-width:412px){
    .texto-parallax{
@@ -142,20 +137,16 @@ section{
 }
 
 
+
+@media screen and (min-width:480px) {
+    #Imagina-parallax{
+        /*  */
+        margin-right: 500px;
+    }
+}
+
 @media screen and (min-width: 375px){
-    header{
-        height: 250px;
-    }
-    
-    header .contenedor{
-        margin-left: -46px;
-    }
-
-    header .icon-menu{
-        margin-top: 172px;
-        margin-right: -35px;
-    }
-
+   
     #Imagina-parallax{
         margin-left: 5px;
     }
