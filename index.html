@@ -1,254 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/estilos.css">
-    <!-- <link rel="stylesheet" href="./assets/menu.css"> -->
-      <!-- FONT AWESMOE -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEL Desarrollos web</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="icon" href="./images/logo.jpg" type="image/X-icon">
+    <!-- FONT AWESMOE -->
        <!-- update the all.css file -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>LEL Desarrollos Web</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-     <header>
-        <div class="contenedor logo-nav-container">
-            <div class="logo">
-                <img src="./assets/images/logo.jpg" alt="">
-                <h1>LEL Desarrollos Web</h1>
-            </div>
-            <div class="navigation">
-            <div class="icon-menu"><i class="fa-solid fa-bars"></i></div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#Nosotros">Nosotros</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Contacto">Contacto</a></li>
-                </ul>
-            </nav>
-            </div>
-        </div>
-     </header>
-     <section class="banner">
-        <div class="container">
-            <img src="./assets/images/web3.webp" alt="" class="banner-web-img">
-            <div class="contenedor">  
-             <h2>Creamos tu pagina web a tu medida</h2>
-             <p>Eleva tu negocio al maximo, hace realidad lo que siempre soñaste</p><br>
-            </div>
-             <div class="btn-consultanos">
-                <a href="https://wa.me/+542616379265?text=Hola%20te%20contacte%20desde%20la%20pagina%20LELDesarrollosWeb">Consultanos</a>
-            </div><br>
-        </div>    
-    </section>
-    <section class="nosotros" id="Nosotros">
-      
-      <div class="contenedor">
-        <hr><br>
-        <h2>Nosotros</h2>
-        <hr><br>
-        <p>
-            Somos una empresa de desarrollo web, estamos en pleno crecimiento y creemos en que algo si podes imaginarlo, podes crearlo, por eso estamos a la disposicion y necesiades de todos nuestros clientes.
-            en LEL Desarrollos web queremos que tu confianza en nosotros sea plena y sepas que buscamos el desarrollo completo y absoluto de tu empresa, por eso valoramos cada interaccion con nuestros clientes y visitantes. 
-        </p>
-      </div><br><br>
-    </section>
-    <section id="Parallax-1">
-    <div class="row py-5 banner-parallax">
-    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-    <div class="col-sm-8 col-md-8 col-lg-8">
-      <div class="texto-parallax">
-        "Si tu negocio no está en internet, <br> 
-       tu negocio no existe."<br><br>
-       - Bill Gates
+  <header id="header">
+    <img src="./images/logo.jpg" class="logo" alt="">
+    <h1>LEL Desarrollos web</h1>
+    <p>Creando sitios modernos, rápidos y responsivos</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#tecnologias">Tecnologías</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>El desarrollo de páginas web es la clave para tener presencia en internet. Creamos sitios adaptados a tus necesidades, optimizados para buscadores y con diseños atractivos.</p>
+    <a href="https://wa.me/+542616379265?text=Hola%20te%20contacte%20desde%20la%20pagina%20leldesarrollosweb" class="btn-wsp"><i class="fa-brands fa-whatsapp" title="Quiero una web"></i> Consultanos</a>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicios">
+      <div class="card">
+        <h3>Diseño Web</h3>
+        <p>Diseños modernos, responsivos y personalizados para tu marca.</p>
+      </div>
+      <div class="card">
+        <h3>Desarrollo Backend</h3>
+        <p>Sistemas escalables y seguros para manejar tus datos y procesos.</p>
+      </div>
+      <div class="card">
+        <h3>SEO & Marketing</h3>
+        <p>Optimización en buscadores para mejorar tu visibilidad online.</p>
       </div>
     </div>
-  </div>
-  <style>
-   
-    .banner-parallax{
-      height: 600px;
-      background-image: linear-gradient(rgba(236, 236, 240, 0.444),rgba(236, 236, 240, 0.444)),
-      url(./assets/images/bill3.jpg);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size:cover;
-      margin: auto;
-    
-    }
+  </section>
 
-    @media screen and (min-width:430px){
-     .texto-parallax{
-      margin-left: 30px;
-     }
+  <section id="tecnologias">
+    <h2>Tecnologías</h2>
+    <div class="tecnologias">
+      <div class="card">
+        <h3>HTML, CSS y JavaScript</h3>
+        <p>La base de todo sitio web moderno.</p>
+      </div>
+      <div class="card">
+        <h3>Frameworks</h3>
+        <p>React, Angular, Laravel, Django y más.</p>
+      </div>
+      <div class="card">
+        <h3>Bases de Datos</h3>
+        <p>MySQL, PostgreSQL, MongoDB.</p>
+      </div>
 
-    }
-
-    @media screen and (min-width:480px){
-      .texto-parallax{
-        margin-left: 95px;
-      }
-    }
-
-    @media screen and (min-width:768px){
-     .texto-parallax{
-      margin-left: 230px;
-     }
-
-     
-
-    }
-
-  </style>
-    </section>
-    <section id="Portfolio">
-        <hr>
-        <br>
-        <h2 style="font-size: 35px;">Portfolio</h2>
-        <br>
-        <hr><br>
-        <h3>Nuestros ultimos proyectos</h3>
-        <br>
-        <div class="contenedor">
-            <article>
-                <img src="./assets/images/sn.jpeg" alt="">
-                <h4><a href="https://leldesarrollosweb.github.io/stetic-nails.com/#">stetic&nails.com</a></h4>
-            </article>
-            <article>
-                <img src="./assets/images/pipos.jpeg" alt="">
-                <h4><a href="./blank.html">piposavendaño.com</a></h4>
-            </article>
-        </div>
-    </section>
-    <section id="Parallax-2">
-         <div class="row py-5 bp">
-    <div class="col-sm-4 col-md-4 col-lg-4"></div>
-    <div class="col-sm-8 col-md-8 col-lg-8 info-talleres" style="width: 200px;">
-      <p class="texto" id="Imagina-parallax">
-        Si podés imaginarlo, <br>
-         podes crearlo.
-      </p>
-      
     </div>
-  </div>
-  <style>
-   
-    .bp{
-      height: 400px;
-      background-image: linear-gradient(rgba(236, 236, 240, 0.796),rgba(236, 236, 240, 0.796)),
-      url(./assets/images/imagina.webp);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size:cover;
-      margin: auto;
-    
-    }
-/* 
-    @media screen and (min-width:430px){
-     #Imagina-parallax{
-     margin-left: 30px;
-     }
-    } */
+  </section>
 
-         
-
-    @media screen and (max-width:991px){
-      .info-talleres{
-        width: 260px;
-        margin-left:60px;
-        /* background: red; */
-      }
-    }
-  
-
-
-    @media screen and (min-width:430px){
-     #Imagina-parallax{
-     margin-left: 25px;
-     }
-
-    }
-
-
-    @media screen and (min-width:480px){
-      #Imagina-parallax{
-        margin-left: 60px;
-      }
-    }
-
-    @media screen and (min-width:540px){
-      #Imagina-parallax{
-        margin-left: 15px;
-      }      
-    }  
-
-    @media screen and (min-width:768px){
-      #Imagina-parallax{
-        margin-left: 200px;
-      }
-    }
-
-    /* @media screen and (min-width: 912px) {
-  
-    } */
-
-
-    @media screen and (min-width:1024px) {
-      #Imagina-parallax{
-       margin-left: 450px;
-      } 
-
-      .texto-parallax{
-        margin-left: 320px;
-        width: 500px;
-      }
-
-      #Nosotros{
-        margin-top: 185px;
-      }
-    }
-    
-
-    @media screen and (min-width:1280px) {
-      #Imagina-parallax{
-       margin-left: 550px;
-      } 
-
-      .texto-parallax{
-        margin-left: 420px;
-        width: 500px;
-      }
-    }
-    
-
-
-
-  </style>
-    </section>
-    <section id="Contacto">
-        <div class="contenedor">
-          <hr>
-          <br>
-            <h2>Contacto</h2>
-          <br>
-          <hr><br>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffdYne_ljn6NNn6S5g8X7uem1bGCILmjRzGQDUq6_FCPxYfg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-        </div> 
-    </section>
- <footer id="Footer">
-    2025 LEL Desarrollos Web-
-    Todos los derechos reservados 
-    leldesarrollosweb.com
-    <div class="social-icon">
-      <a href="#" class="social-icon--link" title="leldesar rollosweb"><i class="fa-brands fa-facebook" title="leldesarrollosweb"></i></a>
-      <a href="#" class="social-icon--link" title="leldesarrollosweb"><i class="fa-brands fa-instagram" title="leldesarrollosweb"></i></a>
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="tecnologias">
+      <div class="card">
+        <h3>Stetic&Nails</h3>
+        <a href="https://leldesarrollosweb.github.io/stetic-nails.com/#">www.stetic&nails.com</a>
+      </div>
+      <div class="card">
+        <h3>CQRITI</h3>
+        <a href="https://lavenderblush-lemur-676803.hostingersite.com/index.html">www.cqriti.com</a>
+      </div>
     </div>
- </footer>  
-<script src="./assets/menu.js"></script>     
-<script src="./assets/blank.js"></script>     
+  </section>
 
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres una página web para tu negocio o proyecto? Escríbenos:</p>
+    <p><strong>Email:</strong> leldesarrollosweb@gmail.com</p>
+    <p><strong>Teléfono:</strong> +54 261 637 9265</p>
+  </section>
+
+  <!-- Boton sube y baja -->
+  <div class="btnUpDown">
+  <a href="#header"><</a>
+  <a href="#footer">></a>
+  </div>
+
+  <footer id="footer">
+    <p>&copy; 2025 LEL Desarrollos Web | Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>

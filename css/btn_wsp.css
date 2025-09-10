@@ -1,0 +1,14 @@
+.btn-wsp{
+    width: 300px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-wsp:hover{
+    background: #ededed;
+    color: #000;
+    transition: all .5s ease;
+}
